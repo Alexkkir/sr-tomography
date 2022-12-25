@@ -5,7 +5,7 @@ implementation of an algorithm for removing noise in tomography images taken as 
 ## Постановка задачи
 Магнитно-резонансная томография (МРТ) - это метод получения 3D снимков внутренних органов за счет картирования времени спиновых релаксаций с присутствием шумовых компонент с распределением Райса (Rice distribution).
 
-![Method overview][images/overview.png]
+![Method overview][overview.png]
 
 В нашей работе мы реализуем метод, представленный в статье [Non-Local SVD Denoising of MRI Based on Sparse Representations
 ](https://www.mdpi.com/1424-8220/20/5/1536/htm)
