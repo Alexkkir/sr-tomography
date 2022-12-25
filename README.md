@@ -14,11 +14,22 @@ implementation of an algorithm for removing noise in tomography images taken as 
 ## Основные методы
 В основе нашего алгоритма лежат 3 метода из теории вероятности и линейной алгебры:
 1. Variance-Stabilization Transformation
-  ![VST](images/vst.png)
+
+<p align="center">
+  <img src="https://github.com/Alexkkir/sr-tomography/blob/main/images/vst.png" />
+</p>
+   
 2. KSVD matrix decomposition
-  ![KSVD](images/ksvd.png)
+
+<p align="center">
+  <img src="https://github.com/Alexkkir/sr-tomography/blob/main/images/ksvd.png" />
+</p>
+  
 3. None-local filtering
-  ![Nonlocal](images/nonlocal.png)
+
+<p align="center">
+  <img src="https://github.com/Alexkkir/sr-tomography/blob/main/images/nonlocal.png" />
+</p>
   
 ## Пайплайн
 На рисунке ниже изображен весь пайплайн работы алгоритма
